@@ -1,0 +1,43 @@
+.main__block {
+  width: 40%;
+  margin: 20px auto;
+  text-align: right;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.bodyTask {
+  padding: 10px;
+  text-align: left;
+  display: flex;
+  background-color: #cccccc;
+  border-radius: 10px;
+  margin: 20px 0;
+  align-items: center;
+}
+
+.textTask {
+  width: 80%;
+}
+
+.btn {
+  padding: 5px 10px;
+  margin: 0 10px;
+  cursor: pointer;
+  height: 30px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.main__block_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__block_header > * {
+  margin: 0 5px;
+}
